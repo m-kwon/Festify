@@ -15,6 +15,7 @@ public class Festival {
     private String startDate;
     private String endDate;
     private String thumbnailUrl;
+    private String posterUrl;
     private String officialUrl;
 
     @OneToMany(mappedBy = "festival", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
